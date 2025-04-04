@@ -3,7 +3,7 @@ const { ethers } = require("hardhat");
 async function main() {
   console.log("Deploying HousePartyProtocol Token contract...");
 
-const HPP_TOKEN_Recipient = "0x1975552499c759bEAE09Fd93a57F45B7D4C84B54"; // AERGO Token Address
+const HPP_TOKEN_Recipient = "0x1975552499c759bEAE09Fd93a57F45B7D4C84B54"; // HPP Token Recipient
 
   const [deployer] = await ethers.getSigners();
   console.log("Deploying with account:", deployer.address);
